@@ -90,7 +90,7 @@ class HistoricoScreen extends StatelessWidget {
                                       padding: const EdgeInsets.only(left: 8.0, top: 4.0),
                                       child: Text(
                                         '- ${sub.titulo} '
-                                        '${sub.checked ? '(Concluído)' : ''}'
+                                        '${sub.checked ? '( Concluído )' : ''}'
                                         '${sub.observacao.isNotEmpty ? ' (Obs: ${sub.observacao})' : ''}',
                                       ),
                                     )),
